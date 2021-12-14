@@ -231,20 +231,3 @@ body, html {
     background-color: white;
     color: black;
   }
-
-
-  @media only screen and (min-width: 768px) {
-    /* For desktop: */
-    .logo p {width: 8.33%;}
-    .logo img {width:  16.66%;}
-    .navbar {width: 25%;}
-    .head {width: 33.33%;}
-    .button {width: 41.66%;}
-    .footer {width: 50%;}
-    .button1 {width: 58.33%;}
-    .button2 {width: 66.66%;}
-
-    body {
-      background-image: url('page1.png');
-    }
-  }
