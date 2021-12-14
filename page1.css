@@ -1,0 +1,250 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url("page1.png");
+  
+    /* Full height */
+    height: 170%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  /* Logo */
+  .logo img{
+      width: 165px;
+      height: 165px;
+      margin-left: 80px;
+  }
+
+  .logo p{
+      position:relative;
+      bottom: 50px;
+      left: 120px;
+      font-weight: bold;
+      font-family: 'Puritan', san-serif;
+      font-size: 20px;
+  }
+
+  /* navigation bar*/
+  .navbar {
+    overflow: hidden;
+    background-color: transparent;
+    position: relative;
+    bottom:160px;
+    left: 550px;
+    width: 100%;
+  }
+  
+  .navbar a {
+    float: left;
+    color: rgb(255, 253, 251);
+    font-weight: bold;
+    text-align: center;
+    padding: 18px 26px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Puritan', san-serif;
+  }
+  
+  .navbar a:hover {
+    background-color: #653a2a;
+    color: white;
+  }
+
+  /* head */
+  .head h2{
+      font-size: 90px;
+      margin: 50px;
+      width: 490px;
+      color: beige;
+      font-family: 'Puritan', san-serif;
+      text-align: center;
+      word-break: normal;
+	 
+  }
+  .head p{
+    color: pink;
+    font-size: 32px;
+    font-family: 'Puritan', san-serif;
+    text-align: left;
+    word-break: normal;
+    position: relative;
+    left: 700px;
+    bottom: 340px;
+    width: 505px;
+  }
+
+  /* order button*/
+.button{
+  background-color: #363536;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  font-family: 'Puritan', san-serif;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  font-weight: bold;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: relative;
+  left: 600px;
+  bottom: 307px;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Footer */
+.footer {
+  font-size: .8em;
+  bottom: 0;
+  height:200px;
+  width: 100%;
+  padding-top:10px;
+  padding-bottom:10px;
+  background-color: #363536;
+  }
+
+  .footer .footer-links{
+    font-size: 15px;
+    font-family: 'Puritan', san-serif ;
+    font-weight: bold;
+    margin-left: 25px;
+  }
+
+  .social p{
+    font-size: 15px;
+    font-family: 'Puritan', san-serif ;
+    font-weight: bold;
+    margin-left: 25px;
+  }
+  
+  .social .image1{
+    margin-left: 25px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .social .image2{
+    width: 50px;
+    height: 50px;
+  }
+
+  .social .image3{
+    width: 50px;
+    height: 50px;
+  }
+
+  .social .image4{
+    width: 50px;
+    height: 50px;
+  }
+
+  .thing{
+    position: relative;
+    left: 350px;
+    bottom: 130px;
+  }
+
+  .thing p{
+    font-size: 15px;
+    font-family: 'Puritan', san-serif ;
+    font-weight: bold;
+  }
+
+  .sites{
+    position: relative;
+    left: 550px;
+    bottom: 270px;
+  }
+
+  .sites h4{
+    font-size: 15px;
+    font-family: 'Puritan', san-serif ;
+    font-weight: bold;
+  }
+
+  .sites p{
+    font-size: 15px;
+    font-family: 'Puritan', san-serif ;
+    font-weight: bold;
+  }
+
+  .button1{
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  font-family: 'Puritan', san-serif;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  font-weight: bold;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: relative;
+  left: 1200px;
+  bottom: 430px;
+  }
+
+  .button1:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .button2{
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  font-family: 'Puritan', san-serif;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  font-weight: bold;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: relative;
+  left: 1200px;
+  bottom: 420px;
+  
+  }
+
+  .button2:hover {
+    background-color: white;
+    color: black;
+  }
+
+
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .logo p {width: 8.33%;}
+    .logo img {width:  16.66%;}
+    .navbar {width: 25%;}
+    .head {width: 33.33%;}
+    .button {width: 41.66%;}
+    .footer {width: 50%;}
+    .button1 {width: 58.33%;}
+    .button2 {width: 66.66%;}
+
+    body {
+      background-image: url('page1.png');
+    }
+  }

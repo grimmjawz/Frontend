@@ -1,0 +1,60 @@
+<DOCTYPE! html>
+    <html>
+        <title>Photoscoop</title>
+        <head>
+            <link rel="stylesheet" type="text/css" href="page3.css">
+           <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Gilda+Display&family=Puritan:ital@1&display=swap" rel="stylesheet">
+        </head>
+
+        <body>
+            <div class="bg">
+                 <!-- logo -->
+                 <div class="logo"><img src="logo.png"><p>Photoscoop</p></div>
+                 <!-- Navigation bar -->
+
+                  <div class="navbar">
+                  <a class="active" href="index.html">Home</a>
+                  <a href="#about">About</a>
+                  <a href="index4.html">Photo Order</a>
+                  <a href="index5.html">Client Album</a>
+                  <a href="index6.html">Events</a>
+                  </div>
+
+                  <form action="action_page.php" method="post">
+                  
+                    <div class="container">
+                      <label for="fname"><b>First Name</b></label>
+                      <input type="text" placeholder="Enter First Name" name="fname" required>
+
+                      <label for="lname"><b>Last Name</b></label>
+                      <input type="text" placeholder="Enter Last name" name="lname" required>
+                      <br>
+
+                      <label for="uname"><b>Username</b></label>
+                      <input type="text" placeholder="Enter Username" name="uname" required>
+                      <br>
+                    
+                      <label for="ename"><b>E-mail </b></label>
+                      <input type="text" placeholder="Enter Email Address" name="uname" required>
+                      <br>
+                  
+                      <label for="psw"><b>Password</b></label>
+                      <input type="password" placeholder="Enter Password" name="psw" required>
+                      <br>
+                  
+                      <button type="submit">Reset</button>
+                      <label>
+                        <input type="checkbox" checked="checked" name="remember"> Good to go
+                      </label>
+                    </div>
+                  
+                    <div class="container" style="background-color:#f1f1f1">
+                      <a href = "index2.html"><button type="button" class="cancelbtn">Cancel</button></a>
+                    </div>
+                  </form>
+
+            </div>
+        </body>
+    </html>

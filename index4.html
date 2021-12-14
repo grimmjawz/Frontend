@@ -1,0 +1,62 @@
+<DOCTYPE! html>
+    <html>
+        <title>Photoscoop</title>
+        <head>
+            <link rel="stylesheet" type="text/css" href="page4.css">
+           <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Gilda+Display&family=Puritan:ital@1&display=swap" rel="stylesheet">
+        </head>
+
+        <body>
+            <div class="bg">
+                 <!-- logo -->
+                 <div class="logo"><img src="logo.png"><p>Photoscoop</p></div>
+                 <!-- Navigation bar -->
+
+                  <div class="navbar">
+                  <a class="active" href="index.html">Home</a>
+                  <a href="#about">About</a>
+                  <a href="index4.html">Photo Order</a>
+                  <a href="index5.html">Client Album</a>
+                  <a href="index6.html">Events</a>
+                  </div>
+
+                  <form action="action_page.php" method="post">
+                  
+                    <div class="container">
+                      <label for="fname"><b>First Name</b></label>
+                      <input type="text" placeholder="Enter First Name" name="fname" required>
+
+                      <label for="lname"><b>Last Name</b></label>
+                      <input type="text" placeholder="Enter Last name" name="lname" required>
+                      <br>
+
+                      <label for="uname"><b>Username</b></label>
+                      <input type="text" placeholder="Enter Username" name="uname" required>
+                      <br>
+                    
+                      <label for="cname"><b>Country </b></label>
+                      <input type="text" placeholder="Enter country name" name="cname" required>
+                      <br>
+                  
+                      <label for="state"><b>State</b></label>
+                      <input type="text" placeholder="Enter State" name="state" required>
+                      <br>
+
+                      <label for="lra"><b>L.R.A</b></label>
+                      <input type="text" placeholder="E.g. 32 Nowhere street, Somewhere" name="lra" required>
+                      <br>
+                  
+                      <button type="submit">ORDER</button>
+                      <label>
+                        <input type="checkbox" checked="checked" name="remember"> Good to go
+                      </label>
+                    </div>
+                  
+                    <div class="container" style="background-color:black">
+                  </form>
+
+            </div>
+        </body>
+    </html>

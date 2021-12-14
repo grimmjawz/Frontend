@@ -1,0 +1,10 @@
+<DOCTYPE! html>
+    <html>
+        <title>Photoscoop</title>
+        <head>
+        </head>
+
+        <body>
+            <img src:"page1.jpg" width="200px" height="300px">
+        </body>
+    </html>

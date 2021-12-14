@@ -1,0 +1,131 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url("page4.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+   /* Logo */
+   .logo img{
+    width: 165px;
+    height: 165px;
+    position: relative;
+    bottom: 40px;
+}
+
+.logo p{
+    position:relative;
+    bottom: 100px;
+    left: 40px;
+    font-weight: bold;
+    font-family: 'Puritan', san-serif;
+    font-size: 20px;
+    color:black;
+}
+
+/* navigation bar*/
+.navbar {
+  overflow: hidden;
+  background-color: #ad6f43;
+  position: relative;
+  bottom:200px;
+  left: 650px;
+  width: 670px;
+}
+
+.navbar a {
+  float: left;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 18px 26px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Puritan', san-serif;
+}
+
+.navbar a:hover {
+  background-color: #653a2a;
+  color: white;
+}
+
+/* Bordered form */
+form {
+    border: 3px solid black;
+    width: 900px;
+    margin-left: 300px;
+    position: relative;
+    bottom:160px;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 320px;
+    padding: 12px 30px;
+    margin-bottom: 35px;
+    display: inline-block;
+    border: 1px solid rgb(240, 47, 47);
+    box-sizing: border-box;
+    background-color: #0a0a0a;
+    color: white;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #060707;
+    color: white;
+    padding:  16px 32px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: auto;
+    font-weight: bold;
+    font-family: 'Puritan', san-serif;
+    font-size: 13px;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+
+  .container b{
+    font-weight: bold;
+    font-family: 'Puritan', san-serif;
+    font-size: 18px;
+    color: rgb(255, 5, 5);
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
